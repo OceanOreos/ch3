@@ -11,8 +11,8 @@ public class ConvertTime {
 	int min = seconds%3600/60;
 	int sec = seconds%3600%60;
 	
+	System.out.println(seconds + " seconds " + "= " + h + " hours, " + min + " minutes, and " + sec + " seconds");
 	
 	
 	}
 }
-	
